@@ -6,4 +6,5 @@ banner: https://cdn.jsdelivr.net/gh/DimMeteor/Dim-picture/picgo/Minecraft_Fall_D
 categories:
 sticky: false #是否置顶
 comment: false #是否开启评论区
+excerpt:
 ---

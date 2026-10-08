@@ -4,6 +4,46 @@
   
     
     <entry>
+      <title>C语言-IDE的使用与疑难</title>
+      <link href="/2026/10/09/C%E8%AF%AD%E8%A8%80-IDE%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E7%96%91%E9%9A%BE/"/>
+      <url>/2026/10/09/C%E8%AF%AD%E8%A8%80-IDE%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E7%96%91%E9%9A%BE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="dev-c"><a class="markdownIt-Anchor" href="#dev-c"></a> Dev-C++</h2><p>作为老牌的且专属于C++集成工具,常见于竞赛项目的代码编写,但如果Win11系统对软件进行了缩放处理,该软件的UI将会模糊.</p><h3 id="ui模糊"><a class="markdownIt-Anchor" href="#ui模糊"></a> UI模糊</h3><h4 id="方法一"><a class="markdownIt-Anchor" href="#方法一"></a> 方法一</h4><p>我们可以直接将系统的缩放改回正常的100%缩放↓<br /><strong>右键桌面空白处→显示设置→缩放与布局→缩放</strong></p><h4 id="方法二推荐"><a class="markdownIt-Anchor" href="#方法二推荐"></a> 方法二(推荐)</h4><p>我们可以通过启动程序时的兼容性设置，使得系统在<strong>保留缩放设置</strong>的前提下修复软件UI界面模糊的问题↓<br /><strong>右键桌面的快捷方式→打开文件位置→找到应用程序本体→右键.exe文件→属性→兼容性→设置内的更改高DPI设置→勾选“程序DPI”内的“使用此设置修复此程序的缩放问题······”以及将“程序DPI”内的“执行以下操作时使用为我的······”切换为打开此程序→勾选“高PDI缩放替代”内的“替代高DPI缩放行为”,将“缩放执行”设置为“应用程序”</strong><br />以下是示例图片<br /><img src="https://cdn.jsdelivr.net/gh/DimMeteor/Dim-picture/picgo/Dev-C%2B%2B_compressed%20(2).png" alt="示例图片" title="Dev-C++" /></p><h3 id="编译运行代码快捷键"><a class="markdownIt-Anchor" href="#编译运行代码快捷键"></a> 编译+运行代码快捷键</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+F5</span><br></pre></td></tr></table></figure><h2 id="vs-code"><a class="markdownIt-Anchor" href="#vs-code"></a> VS code</h2><p>这是一个文本编辑器,是蓝色图标的,<img src="https://cdn.jsdelivr.net/gh/DimMeteor/Dim-picture/picgo/vscode.ico" class="[vscode图标]" width="30" height="30"></p><h3 id="c语言环境配置"><a class="markdownIt-Anchor" href="#c语言环境配置"></a> C语言环境配置</h3><p>正常来讲，他只是一个<strong>高级版的记事本</strong>,不支持直接进行代码编译与程序运行，但是我们可以通过安装社区内的插件，来让我们的VScode成为支持C语言编程的集成工具↓<br /><strong>直接在VScode的扩展管理搜索&quot;C/C++&quot;</strong><br />以下是该扩展的链接↓</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools</span><br></pre></td></tr></table></figure><h3 id="编译运行代码快捷键-2"><a class="markdownIt-Anchor" href="#编译运行代码快捷键-2"></a> 编译+运行代码快捷键</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+F5</span><br></pre></td></tr></table></figure><h2 id="clion"><a class="markdownIt-Anchor" href="#clion"></a> CLion</h2><p>这是从IntelliJ IDEA中分割出来的独立的C语言集成工具,是IntelliJ家的<br />他适用于编写大型项目,目前本人还没到那个程度:)</p><h3 id="免费激活使用"><a class="markdownIt-Anchor" href="#免费激活使用"></a> 免费激活使用</h3><p>另外附上IntelliJ全系列软件激活密钥免费获取网站↓</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://ckey.run/</span><br></pre></td></tr></table></figure><h2 id="鸣谢"><a class="markdownIt-Anchor" href="#鸣谢"></a> 鸣谢</h2><p><a href="https://ask.csdn.net/questions/9781534">CSDN:Dev-C++ 代码编辑区字体模糊、界面显示不清晰怎么办？</a><br /><a href="https://www.botproductions.com/iconview/download.html">Icon Viewer,提取exe程序图标的软件</a><br /><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">VScode C/C++扩展</a><br /><a href="https://ckey.run/">IntelliJ全系列软件激活密钥免费获取网站</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C语言-HelloWorld</title>
+      <link href="/2026/10/09/C%E8%AF%AD%E8%A8%80-HelloWorld/"/>
+      <url>/2026/10/09/C%E8%AF%AD%E8%A8%80-HelloWorld/</url>
+      
+        <content type="html"><![CDATA[<h2 id="总代码"><a class="markdownIt-Anchor" href="#总代码"></a> 总代码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include &lt;stdio.h&gt;</span></span><br><span class="line"></span><br><span class="line">int <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">return</span> 0; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>注解：<br />#include &lt;stdio.h&gt;<br />表示该代码内引用头文件stdio.h的内容(相当于import package)<br />int main(){}<br />该代码的主窗口，让机器知道从这个地方开始读取与执行<br />printf(“Hello World!\n”);<br />打印内容<br />return 0;<br />返回0，如果是0,那么返回值为true，如果是1，那么返回值为false</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>建站</title>
       <link href="/2026/10/08/%E5%BB%BA%E7%AB%99/"/>
       <url>/2026/10/08/%E5%BB%BA%E7%AB%99/</url>
@@ -16,19 +56,6 @@
           <category> 网页制作 </category>
           
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2026/10/07/hello-world/"/>
-      <url>/2026/10/07/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
       
       
     </entry>

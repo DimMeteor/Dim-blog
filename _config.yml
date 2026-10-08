@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: DimMetoer's blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: DimMetoer
 language: zh-CN
 timezone: ''
 
@@ -100,7 +100,9 @@ theme: reimu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo:
+  branch:
 
 markdown_it_plus:
   rawLaTeX: true
