@@ -6,7 +6,7 @@ comments: true
 ## 本站信息
 
 ```yml
-- name: 拔剑Sketon
+- name: DimMeteor
   url: https://d-sketon.github.io/
   desc: 东方人的日常
   image: https://d-sketon.github.io/avatar/avatar.webp

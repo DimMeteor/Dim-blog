@@ -117,6 +117,7 @@
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation">
       <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" aria-label="RSS 订阅" target="_blank"></a>
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索" aria-label="搜索"></a>
   </nav>
 </div>
 <header id="header" aria-label="Site header">
@@ -135,7 +136,7 @@
   </div>
 </header>
 
-        <div id="content" aria-label="Page content"  class="sidebar-right" >
+        <div id="content" aria-label="Page content" class="sidebar-left"  >
           <aside id="sidebar" aria-label="Sidebar">
   <div class="sidebar-wrapper-container ">
   <div class="sidebar-wrapper">
@@ -148,7 +149,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -195,6 +196,22 @@
     </div>
   </div>
   <div class="sidebar-widget">
+        <div class="widget-wrapper">
+    <div class="widget-wrap" data-aos="fade-up">
+      <h3 class="widget-title">最新文章</h3>
+      <div class="widget">
+        <ul>
+            <li>
+              <a href="/2026/10/07/%E6%B5%8B%E8%AF%95/" title="测试">测试</a>
+            </li>
+            <li>
+              <a href="/2026/10/07/hello-world/" title="Hello World">Hello World</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   </div>
   </div>
 </aside>
@@ -209,6 +226,15 @@
             <a href="/archives/2026" class="archive-year">2026</a>
           </div>
           <ul>
+            <li class="archive-article">
+  <div class="archive-article-date">
+    <span>
+      <time class="dt-published" datetime="2026-10-07T15:00:36.000Z" itemprop="datePublished">10-07</time>
+    </span>
+  </div>
+    <a class="archive-article-title" href="/2026/10/07/%E6%B5%8B%E8%AF%95/">测试</a>
+</li>
+
             <li class="archive-article">
   <div class="archive-article-date">
     <span>
@@ -231,7 +257,7 @@
   <div id="footer-info">
     <div>
       <span class="icon-copyright"></span>
-        2020-2026
+        2026
         <span class="footer-info-sep rotate"></span>
       John Doe
     </div>
@@ -241,10 +267,10 @@
       </div>
       <div>
         <span class="icon-brush"></span>
-        75
+        80
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:01
+        00:02
       </div>
       <div>
         <span class="icon-eye"></span>
@@ -272,7 +298,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -320,6 +346,21 @@
 </nav>
 
     </div>
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/images/reimu.png" loading="lazy" decoding="async" fetchpriority="low"/>
+        </div>
+      </div>
     
 <script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
 
@@ -355,12 +396,15 @@
 <script src="/js/pjax_script.js" data-pjax></script>
 
 
+  
+<script src="/js/generator_search.js" defer></script>
+
 
 
   <script>
     var setupFirework = () => {
       if (!false || !window.matchMedia('(max-width: 768px)').matches) {
-        window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["var(--red-1)","var(--red-2)","var(--red-3)","var(--red-4)"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["var(--red-0)"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'));
+        window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["var(--lime-1)","var(--lime-2)","var(--lime-3)","var(--lime-4)"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["var(--red-0)"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'));
       }
     }
   </script>
@@ -406,6 +450,13 @@
   }
 </script>
 
+
+    
+<script src="https://npm.webcache.cn/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6&#x2F;1Nxveei" crossorigin="anonymous" defer data-pjax></script>
+
+    <script data-pjax>
+      window.MathJax = {"tex":{"tags":"ams","useLabelIds":true,"inlineMath":[["$","$"],["\\\\(","\\\\)"]],"displayMath":[["$$","$$"],["\\\\[","\\\\]"]],"processEscapes":true,"processEnvironments":true,"autoload":{"color":[],"colorv2":["color"]},"packages":{"[+]":["noerrors"]}},"options":{"skipHtmlTags":["script","noscript","style","textarea","pre","code"],"ignoreHtmlClass":"tex2jax_ignore","processHtmlClass":"tex2jax_process"},"loader":{"load":["input/asciimath","[tex]/noerrors"]}};
+    </script>
 
 
 
