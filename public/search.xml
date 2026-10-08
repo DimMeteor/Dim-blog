@@ -4,12 +4,18 @@
   
     
     <entry>
-      <title>测试</title>
-      <link href="/2026/10/07/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2026/10/07/%E6%B5%8B%E8%AF%95/</url>
+      <title>建站</title>
+      <link href="/2026/10/08/%E5%BB%BA%E7%AB%99/"/>
+      <url>/2026/10/08/%E5%BB%BA%E7%AB%99/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="教程网站"><a class="markdownIt-Anchor" href="#教程网站"></a> 教程网站</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.cnblogs.com/coder-Jason/p/15821938.html</span><br></pre></td></tr></table></figure><h2 id="hexo文档"><a class="markdownIt-Anchor" href="#hexo文档"></a> Hexo文档</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://hexo.io/zh-cn/docs/</span><br></pre></td></tr></table></figure><h2 id="使用主题reimu"><a class="markdownIt-Anchor" href="#使用主题reimu"></a> 使用主题reimu</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/D-Sketon/hexo-theme-reimu</span><br></pre></td></tr></table></figure><h2 id="用git连接github"><a class="markdownIt-Anchor" href="#用git连接github"></a> 用git连接github</h2><p>先在本地仓库目录下启动cmd或者git bash<br />创建连接信息</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;DimMeteor&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;1592497663@qq.com&quot;</span></span><br></pre></td></tr></table></figure><p>建立远程链接</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:DimMeteor/Dim-blog</span><br></pre></td></tr></table></figure><p>修改远程链接仓库</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin git@github.com:DimMeteor/Dim-blog.git</span><br></pre></td></tr></table></figure><p>将仓库内容全部推入暂存区</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add *</span><br></pre></td></tr></table></figure><p>将嵌套仓库(引用了别的仓库)添加暂存权限(需重新推入)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add https://github.com/D-Sketon/hexo-theme-reimu.git themes/reimu</span><br></pre></td></tr></table></figure><p>将暂存区内容提交到header</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;代码提交信息&quot;</span></span><br></pre></td></tr></table></figure><p>将暂存区内容提交到仓库</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure><p>git工作流示意图<br /><img src="https://www.runoob.com/wp-content/uploads/2014/05/trees.png" alt="git工作流示意图" /><br />图片来源:<a href="https://www.runoob.com/w3cnote/git-guide.html" title="Github的简明教程">菜鸟教程</a></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 网页制作 </category>
+          
+      </categories>
       
       
     </entry>
